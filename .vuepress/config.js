@@ -228,9 +228,9 @@ module.exports = {
           children: [
             {
               title: 'Auto-batching',
-              path: '/learn/experimental/autobatching'
-            }
-          ]
+              path: '/learn/experimental/autobatching',
+            },
+          ],
         },
         {
           title: '👐 Contributing',
