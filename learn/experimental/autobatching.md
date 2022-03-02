@@ -15,7 +15,7 @@ To enable auto-batching, start Meilisearch while supplying the `--enable-autobat
 For document addition requests to be added to the same batch, they need to:
 
 - Target the same index
-- Have the same update method (e.g. [POST](/reference/api/documents.md#add-or-replace-documents) or [PUT](/reference/api/documents.md#add-or-update-documents)
+- Have the same update method (e.g. [POST](/reference/api/documents.md#add-or-replace-documents) or [PUT](/reference/api/documents.md#add-or-update-documents))
 - Be immediately consecutive
 
 After enabling autobatching, the field `batchUid` will appear in all [Task API](/reference/api/tasks.md) responses.
